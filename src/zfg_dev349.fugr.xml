@@ -27,6 +27,13 @@
        <REFERENCE>X</REFERENCE>
        <TYP>P</TYP>
       </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_STRICT_MODE</PARAMETER>
+       <DEFAULT>&apos; &apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
      </IMPORT>
      <EXPORT>
       <RSEXP>
@@ -59,6 +66,11 @@
        <KIND>P</KIND>
       </RSFDO>
       <RSFDO>
+       <PARAMETER>IV_STRICT_MODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Single-Character Flag</STEXT>
+      </RSFDO>
+      <RSFDO>
        <PARAMETER>EV_GPA</PARAMETER>
        <KIND>P</KIND>
       </RSFDO>
@@ -70,6 +82,23 @@
        <PARAMETER>INVALID_SCORE</PARAMETER>
        <KIND>X</KIND>
        <STEXT>Score must be 0-10</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZFM_DEV349_ROUND_SCORE</FUNCNAME>
+     <SHORT_TEXT>VuTienDat lab5</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>CV_SCORE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>P</TYP>
+      </RSCHA>
+     </CHANGING>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CV_SCORE</PARAMETER>
+       <KIND>P</KIND>
       </RSFDO>
      </DOCUMENTATION>
     </item>

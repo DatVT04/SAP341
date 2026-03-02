@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_DEV349_PERSON</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>VuTienDat lab7</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INFO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Lấy thông tin hiển thị</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Mã định danh</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Họ tên</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_CORE_INFO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Nạp thông tin cơ bản</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_CORE_INFO</CMPNAME>
+     <SCONAME>IV_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field, 8 characters long</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
